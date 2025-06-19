@@ -10,6 +10,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto+Slab:wght@100..900&display=swap');
     </style>
+    <script type="text/javascript" src="script.js"></script>
+
 </head>
 
 <body>
@@ -18,76 +20,83 @@
     </header>
 
     <nav>
-        <a href="about.html">About Us</a>
+        <span onclick="openNav()" class="sidenavbtn"><img src="media/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" width="25px"></span>
+        
         <a href="contact.html">Get Involved</a>
+        <a href="history.html">History of BMGC</a>
+        <a href="https://www.facebook.com/share/18CwZQnpqJ/"><img src="media/Facebook_Logo_Secondary.png" width="25px"/></a>
     </nav>
 
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="mission.html">Mission Statement</a>
+        <a href="board.html">Board Members</a>
+        <a href="https://www.facebook.com/share/1ECoPvNDxJ/">The Broken Tee</a>
+        <a href="https://bmgc.golf/contact-us/">Contact BMGC</a>
+        <a href="mailto:Friendsofthebeav@gmail.com">Contact Us</a>
+        <a href="https://bmgc.golf/golf-advisory-minutes/">New Clubhouse and Course News</a>
+        <br/>
+        <span>1 Beaver Meadow Dr, Concord, NH 03301, New York</span>
+        <div class="mapouter">
+            
+            <div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=180&amp;height=360&amp;hl=en&amp;q=1 Beaver Meadow Dr, Concord, NH 03301, NH&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                    href="https://embed-googlemap.com/my-location">where am i</a></div>
+            <style>
+                .mapouter {
+                    position: relative;
+                    text-align: right;
+                    width: 180px;
+                    height: 360px;
+                    padding: 8px 8px 8px 32px;
+                }
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    width: 180px;
+                    height: 360px;
+                }
+
+                .gmap_iframe {
+                    width: 180px !important;
+                    height: 360px !important;
+                }
+            </style>
+        </div>
+    </div>
+
+    <!-- Use any element to open the sidenav -->
+    
+
     <div class="hero">
-        <h1>The Power of Building Community</h1>
+        <h1>A 501C3 organization dedicated to raising awareness and support our local municipal golf course, Beaver
+            Meadow, through charitable endeavors.</h1>
     </div>
 
     <div class="flex-container">
         <div class="container">
             <section class="section">
-                <h2>Beaver Meadow: More Than a Golf Course — A Year-Round Destination</h2>
-                <p>Beaver Meadow is more than just a summer destination. With the right infrastructure — including a
-                    functioning, modern clubhouse — it has the potential to become a four-season hub for recreation.
-                    Plans for expanded outdoor winter activities like cross-country skiing, snowshoeing, and skating are
-                    on the table. But we cannot truly begin to grow these offerings without investing in a year-round
-                    facility that can serve as a home base for all users.</p>
-                <p>Without a clubhouse, we’re not just limiting golfers — we’re turning away winter families, school
-                    groups, and community events that would otherwise thrive here. And how can we call ourselves a
-                    welcoming community if we alienate our neighbors?</p>
+                <h2>The Power of Building Community </h2>
+                <p>At a municipal golf course, the game goes beyond fairways and greens—it’s about community. It’s where
+                    players of all backgrounds come together, friendships are formed over shared rounds, and local pride
+                    runs deep. This is where beginners learn, families connect, community development and lifelong
+                    memories are made. The true power of a municipal course lies in its ability to bring people
+                    together, making golf accessible to all, welcoming, and rooted in the heart of the community.</p>
             </section>
         </div>
         <div class="container">
             <img src="media/fotb1.jpg" />
         </div>
     </div>
-
-    <div class="flex-container">
-        <div class="container">
-            <img src="media/fotb2.jpg" />
-        </div>
-        <div class="container">
-            <section class="section">
-                <h2>Clearing Up the Misinformation</h2>
-                <p>There’s a false narrative circulating that non-residents are unfairly subsidized at Beaver Meadow —
-                    that they pay the same greens fees as Concord residents. That simply isn’t true. The rate structure
-                    changed more than a year ago to reflect a fair and thoughtful balance between encouraging regional
-                    participation and respecting Concord taxpayers. Non-resident rates were adjusted to ensure that all
-                    who enjoy Beaver Meadow contribute accordingly.</p>
-                <p>Beaver Meadow is owned by the people of Concord, but it serves a much wider audience. And that’s
-                    something to be proud of — not something to gatekeep.</p>
-            </section>
-        </div>
-    </div>
-
-    <div class="flex-container">
-        <div class="container">
-            <section class="section">
-                <h2>In Support of Our Shared Future</h2>
-                <p>Supporting Beaver Meadow — and supporting public and community-oriented golf throughout central New
-                    Hampshire — means investing in more than recreation. It means protecting spaces that bring people
-                    together, support local economies, and help towns stay connected to both tradition and each other.
-                </p>
-                <p>Whether you're a regular on the tee sheet or someone who's never picked up a club, there's a place
-                    for you at Beaver Meadow — and at every course in our region that puts community first. With the
-                    right investment, we can turn Beaver Meadow into a year-round destination that serves everyone —
-                    golfers, skiers, skaters, neighbors, and friends.</p>
-                <p>Because building community means opening the doors, not closing them</p>
-            </section>
-        </div>
-        <div class="container">
-            <img src="media/fotb3.jpg" />
-        </div>
-    </div>
-
     <div class="hero">
         <h2>Want to get involved?</h2>
         <p>Help us promote and preserve the accessibility of golf by
             advocating for the value and benefits of Beaver Meadow Golf Course.</p>
-        <a href="contact.html"><div class="btn">Get Involved</div></a>
+        <a href="contact.html" style="text-decoration: none;">
+            <div class="btn">Get Involved</div>
+        </a>
     </div>
 
     <footer>
